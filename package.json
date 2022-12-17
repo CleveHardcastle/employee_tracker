@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.3",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.27.0"
+  },
+  "name": "employee_tracker",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node ./seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CleveHardcastle/employee_tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CleveHardcastle/employee_tracker/issues"
+  },
+  "homepage": "https://github.com/CleveHardcastle/employee_tracker#readme"
+}
